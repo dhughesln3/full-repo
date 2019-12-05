@@ -13,4 +13,4 @@ Goals:
 
 5. Make another change on `experimental` and commit, then push only that commit to `partial-repo/experimental`
 
-6. Make changes on `develop`, make the these changes reflect on both `full-repo/experimental` as well as on `partial-repo/experimental`.
+6. Make changes on `develop`, make these changes reflect on both `full-repo/experimental` as well as on `partial-repo/experimental`.
