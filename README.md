@@ -7,12 +7,10 @@ Goals:
 
 2. Create a PR against `master` and resolve conflicts
 
-3. This one is a three parter
+3. Create and switch to a new branch based of off `develop` called `experimental`, then remove file2 and push `experimental` to `full-repo`.
 
-    a. Create and switch to a new branch based of off `develop` called `experimental`, remove file2 and push `experimental` to `full-repo`.
+4. Create a new repo called `partial-repo` and push `full-repo/experimental` to `partial-repo/master`.
 
-     b. Next, create a new repo called `partial-repo` and push `full-repo/experimental` to `partial-repo/master`.
+5. Make another change on `experimental` and commit, then push only that commit to `partial-repo/experimental`
 
-    c. Now make another change on `experimental` and commit, then push only that commit to `partial-repo/experimental`
-
-4. Make changes on `develop`, make the these changes reflect on both `full-repo/experimental` as well as on `partial-repo/experimental`.
+6. Make changes on `develop`, make the these changes reflect on both `full-repo/experimental` as well as on `partial-repo/experimental`.
